@@ -1,0 +1,143 @@
+.main-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  position: fixed;
+  margin-top: 40px;
+  inset: 0;
+}
+.score {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.main-wrapper img {
+  margin-bottom: 30px;
+  width: 35%;
+}
+.btn-next-outer {
+  background: #01ab08;
+  min-width: 277px;
+  min-height: 80px;
+  margin-top: 30px;
+  border-radius: 8px;
+}
+a {
+  text-decoration-line: none;
+  color: white;
+}
+.btn-next-inner {
+  background-color: #35bd3a;
+  color: white;
+  font-family: Poppins, sans-serif;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  width: 250px;
+  font-weight: 500;
+  font-size: 35px;
+}
+.footer-text {
+  font-size: 10px;
+  font-family: "Poppin", sans-serif;
+  text-align: center;
+}
+//
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.counter {
+  background: #fec33d;
+  height: 35px;
+  width: 83px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+.solved-questions {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 600;
+  font-size: 19px;
+}
+
+.speaker {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.quiz-wrapper {
+  max-width: 950px;
+  margin: auto;
+  margin-top: 20px;
+}
+.question span {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.question {
+  background: #f5f5f57a;
+  height: 100px;
+  width: 957px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.logo img {
+  width: 200px;
+}
+@media only screen and (max-width: 768px) {
+  .btn-next-inner {
+    padding: 9px;
+    width: 180px;
+    font-size: 23px;
+  }
+  .main-wrapper img {
+    width: 77%;
+  }
+  .btn-next-outer {
+    min-width: 204px;
+    min-height: 58px;
+    margin-top: 30px;
+    border-radius: 8px;
+  }
+  .score {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .btn-next-inner {
+    padding: 9px;
+    width: 180px;
+    font-size: 23px;
+  }
+  .main-wrapper img {
+    width: 77%;
+  }
+  .btn-next-outer {
+    min-width: 204px;
+    min-height: 58px;
+    margin-top: 30px;
+    border-radius: 8px;
+  }
+  .score {
+    font-size: 12px;
+  }
+}
